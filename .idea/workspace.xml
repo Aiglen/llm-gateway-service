@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cc9594d-dde3-4521-8ecc-d743e789a7c7" name="更改" comment="init" />
+    <list default="true" id="5cc9594d-dde3-4521-8ecc-d743e789a7c7" name="更改" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/llmgateway/dto/ChatResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/llmgateway/dto/ChatResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/llmgateway/service/rag/RagService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/llmgateway/service/rag/RagService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +29,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Aiglen&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b7a7a584-2865-4d64-9c6a-2279283cc438" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Aiglen/llm-gateway-service.git&quot;,
+    &quot;accountId&quot;: &quot;b7a7a584-2865-4d64-9c6a-2279283cc438&quot;
+  }
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -40,22 +61,22 @@
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0000000000109166" />
-      <entry key="M15" value="1.0000000739027992" />
-      <entry key="M30" value="1.0005269584987013" />
-      <entry key="H1" value="1.0455329418218011" />
-      <entry key="H2" value="1.4258744046139227" />
-      <entry key="H4" value="2.3044940359521715" />
-      <entry key="D1" value="4.318373124092751" />
-      <entry key="W1" value="4.894650856572672" />
+      <entry key="MS500" value="1.0000001860250187" />
+      <entry key="S2" value="1.020767912208048" />
+      <entry key="S5" value="1.2123034910967803" />
+      <entry key="S10" value="1.4607688144556712" />
+      <entry key="S30" value="1.7990383234838891" />
+      <entry key="S60" value="2.1096987032852206" />
+      <entry key="M2" value="2.6169097433919033" />
+      <entry key="M5" value="3.2859940251629363" />
+      <entry key="M10" value="3.7124194207845953" />
+      <entry key="M15" value="3.957952454291206" />
+      <entry key="M30" value="4.341501025900659" />
+      <entry key="H1" value="4.65486168349123" />
+      <entry key="H2" value="5.152833134336988" />
+      <entry key="H4" value="6.086447157617382" />
+      <entry key="D1" value="8.250573720515384" />
+      <entry key="W1" value="8.883663344512122" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -77,23 +98,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8645372313078652" />
-      <entry key="MS500" value="0.9713074955416333" />
-      <entry key="S2" value="0.992748375440308" />
-      <entry key="S5" value="0.9970930153280337" />
-      <entry key="S10" value="0.9985454498058832" />
-      <entry key="S30" value="0.9995149146655609" />
-      <entry key="S60" value="0.9997574279121715" />
-      <entry key="M2" value="0.9998787066000413" />
-      <entry key="M5" value="0.9999514808744516" />
-      <entry key="M10" value="0.9999757401538721" />
-      <entry key="M15" value="0.9999839005982342" />
-      <entry key="M30" value="1.0005188668723444" />
-      <entry key="H1" value="1.045528663861578" />
-      <entry key="H2" value="1.4258712349611242" />
-      <entry key="H4" value="2.3044912277318725" />
-      <entry key="D1" value="4.318372179709896" />
-      <entry key="W1" value="4.894650702012203" />
+      <entry key="MS100" value="0.9659363289248455" />
+      <entry key="MS500" value="0.9930926799211593" />
+      <entry key="S2" value="1.0189934040159814" />
+      <entry key="S5" value="1.211434068428666" />
+      <entry key="S10" value="1.460230710351357" />
+      <entry key="S30" value="1.7988083128218817" />
+      <entry key="S60" value="2.109547953036499" />
+      <entry key="M2" value="2.616801223890746" />
+      <entry key="M5" value="3.285932316158235" />
+      <entry key="M10" value="3.7123816979126394" />
+      <entry key="M15" value="3.9579242184575474" />
+      <entry key="M30" value="4.341484279235695" />
+      <entry key="H1" value="4.654852132678231" />
+      <entry key="H2" value="5.152827162279829" />
+      <entry key="H4" value="6.086442918379079" />
+      <entry key="D1" value="8.250572509788265" />
+      <entry key="W1" value="8.88366315017797" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -105,36 +126,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Maven.llm-gateway-service [clean].executor": "Run",
-    "Maven.llm-gateway-service [compile].executor": "Run",
-    "Maven.llm-gateway-service [install].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.LlmGatewayApplication.executor": "Debug",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/cuizhihui/Develop/IdeaProjects/llm-gateway-service",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "to.speed.mode.migration.done": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Maven.llm-gateway-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.llm-gateway-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.llm-gateway-service [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Spring Boot.LlmGatewayApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/cuizhihui/Develop/IdeaProjects/llm-gateway-service&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="LlmGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />

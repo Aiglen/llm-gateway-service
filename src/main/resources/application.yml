@@ -72,7 +72,7 @@ llm:
       enabled: false
 
     # 本地模型示例二：任何实现了 OpenAI 兼容协议的本地推理服务
-    # （vLLM --api-key 不设置时 / LM Studio 本地服务器 / Xinference 等）
+    # （vLLM --api-key 不设置时 / LM Studio 本地服务器 / Xinference / oMLX 等）
     local-vllm:
       type: local
       base-url: http://localhost:8000/v1
@@ -82,6 +82,18 @@ llm:
       priority: 4
       timeout-ms: 60000
       enabled: false
+
+    # 本地模型示例三：oMLX（Apple Silicon 上基于 MLX 的推理服务，同样是 OpenAI 兼容协议，
+    # 默认监听 8000 端口），复用的还是 type: local，只是换了个 base-url/models
+    local-omlx:
+      type: olmx
+      base-url: http://localhost:8000/v1
+      api-key: ""
+      models:
+        - qwen3.5-7b-4bit
+      priority: 5
+      timeout-ms: 60000
+      enabled: true
 
   # 限流 / 降级配置
   rate-limit:

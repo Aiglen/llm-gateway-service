@@ -37,7 +37,8 @@ public class RagService {
                 .flatMap(vector -> vectorStoreClient.similaritySearch(vector, topK))
                 .flatMap(chunks -> {
                     List<ChatMessage> messages = buildPrompt(question, chunks);
-                    return llmRouterService.chat(model, messages, 0.3, 1024);
+                    return llmRouterService.chat(model, messages, 0.3, 1024)
+                            .doOnNext(resp -> resp.setRetrievedChunks(chunks));
                 });
     }
 

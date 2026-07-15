@@ -90,7 +90,7 @@ mvn spring-boot:run
 不需要改代码，在 `llm.providers` 下加一个节点即可，`application.yml` 里已经给了两个默认禁用的示例：
 
 - **Ollama**（最常见的本地跑模型方式）：`type: ollama`，走 `/api/chat` 原生协议，`ollama pull qwen2.5:7b && ollama serve` 起服务后把对应节点 `enabled` 改成 `true` 即可。默认不需要 `api-key`。
-- **通用 OpenAI 兼容本地服务**（vLLM / LM Studio / Xinference 等）：`type: local`，这些服务本身就实现了 `/v1/chat/completions`，复用的是和 OpenAI 一样的解析逻辑。
+- **通用 OpenAI 兼容本地服务**（vLLM / LM Studio / Xinference / oMLX 等）：`type: local`，这些服务本身就实现了 `/v1/chat/completions`，复用的是和 OpenAI 一样的解析逻辑。oMLX（Apple Silicon 上基于 MLX 的推理服务）默认监听 8000 端口，同样走这个类型，换个 `base-url`/`models` 就行，不需要新代码。
 
 两种类型接入后都会自动进入多模型路由的降级链（按 `priority` 排序），也会通过 `GET /api/providers` 暴露给前端，前端的模型选择器和路由链可视化会自动出现，不需要改前端代码。
 
