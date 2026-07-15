@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5cc9594d-dde3-4521-8ecc-d743e789a7c7" name="更改" comment="init" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="40" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.8" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../apache-maven-3.8.8/repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../apache-maven-3.8.8/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.0" />
+      <entry key="M5" value="1.0" />
+      <entry key="M10" value="1.0000000000109166" />
+      <entry key="M15" value="1.0000000739027992" />
+      <entry key="M30" value="1.0005269584987013" />
+      <entry key="H1" value="1.0455329418218011" />
+      <entry key="H2" value="1.4258744046139227" />
+      <entry key="H4" value="2.3044940359521715" />
+      <entry key="D1" value="4.318373124092751" />
+      <entry key="W1" value="4.894650856572672" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8645372313078652" />
+      <entry key="MS500" value="0.9713074955416333" />
+      <entry key="S2" value="0.992748375440308" />
+      <entry key="S5" value="0.9970930153280337" />
+      <entry key="S10" value="0.9985454498058832" />
+      <entry key="S30" value="0.9995149146655609" />
+      <entry key="S60" value="0.9997574279121715" />
+      <entry key="M2" value="0.9998787066000413" />
+      <entry key="M5" value="0.9999514808744516" />
+      <entry key="M10" value="0.9999757401538721" />
+      <entry key="M15" value="0.9999839005982342" />
+      <entry key="M30" value="1.0005188668723444" />
+      <entry key="H1" value="1.045528663861578" />
+      <entry key="H2" value="1.4258712349611242" />
+      <entry key="H4" value="2.3044912277318725" />
+      <entry key="D1" value="4.318372179709896" />
+      <entry key="W1" value="4.894650702012203" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3GULkIM3VXifjkCtrPg0qk4hBLj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Maven.llm-gateway-service [clean].executor": "Run",
+    "Maven.llm-gateway-service [compile].executor": "Run",
+    "Maven.llm-gateway-service [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.LlmGatewayApplication.executor": "Debug",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/cuizhihui/Develop/IdeaProjects/llm-gateway-service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="LlmGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="llm-gateway-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.llmgateway.LlmGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.llmgateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.LlmGatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="5cc9594d-dde3-4521-8ecc-d743e789a7c7" name="更改" comment="" />
+      <created>1784021343097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1784021343097</updated>
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1784102568768</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1784102568768</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/llmgateway/service/rag/DocumentIngestionService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

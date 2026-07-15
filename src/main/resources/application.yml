@@ -1,0 +1,109 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: llm-gateway-service
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+logging:
+  level:
+    com.example.llmgateway: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+
+# ========== AI 能力网关自定义配置 ==========
+llm:
+  default-provider: openai
+
+  # 多模型路由配置：新增/替换厂商只需增加一个 provider 节点
+  providers:
+    openai:
+      type: openai
+      base-url: https://api.openai.com/v1
+      api-key: ${OPENAI_API_KEY:sk-your-openai-key}
+      models:
+        - gpt-4o-mini
+        - gpt-4o
+      priority: 0
+      timeout-ms: 30000
+      enabled: true
+
+    qwen:
+      type: qwen
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/v1
+      api-key: ${DASHSCOPE_API_KEY:sk-your-dashscope-key}
+      models:
+        - qwen-plus
+        - qwen-turbo
+      priority: 1
+      timeout-ms: 30000
+      enabled: true
+
+    wenxin:
+      type: wenxin
+      base-url: https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat
+      api-key: ${WENXIN_API_KEY:your-api-key}
+      models:
+        - ernie-4.0-8k
+        - ernie-3.5-8k
+      priority: 2
+      timeout-ms: 30000
+      enabled: true
+
+    # 本地模型示例一：Ollama 原生协议（ollama serve 默认监听 11434）
+    # 启动方式参考：ollama pull qwen2.5:7b && ollama serve
+    ollama:
+      type: ollama
+      base-url: http://localhost:11434
+      api-key: ""
+      models:
+        - qwen2.5:7b
+        - llama3.1:8b
+      priority: 3
+      timeout-ms: 60000
+      enabled: false
+
+    # 本地模型示例二：任何实现了 OpenAI 兼容协议的本地推理服务
+    # （vLLM --api-key 不设置时 / LM Studio 本地服务器 / Xinference 等）
+    local-vllm:
+      type: local
+      base-url: http://localhost:8000/v1
+      api-key: ""
+      models:
+        - Qwen2.5-7B-Instruct
+      priority: 4
+      timeout-ms: 60000
+      enabled: false
+
+  # 限流 / 降级配置
+  rate-limit:
+    enabled: true
+    requests-per-minute: 30
+    daily-token-quota: 200000
+
+  # RAG / 向量库配置
+  rag:
+    vector-store: milvus
+    host: ${MILVUS_HOST:localhost}
+    port: ${MILVUS_PORT:19530}
+    collection-name: knowledge_base
+    top-k: 5
+    score-threshold: 0.35
+    embedding-model: text-embedding-3-small
+    chunk-size: 800
+    chunk-overlap: 120
+
+  # 自定义 HTTP 工具安全配置：留空表示不限制域名，仅建议开发环境这样用
+  agent:
+    custom-tool:
+      allowed-hosts: []
+      timeout-ms: 15000
+      max-response-chars: 4000

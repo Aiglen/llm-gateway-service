@@ -1,0 +1,117 @@
+{
+  "groups": [
+    {
+      "name": "llm",
+      "type": "com.example.llmgateway.config.ModelProperties",
+      "sourceType": "com.example.llmgateway.config.ModelProperties"
+    },
+    {
+      "name": "llm.rag",
+      "type": "com.example.llmgateway.config.RagProperties",
+      "sourceType": "com.example.llmgateway.config.RagProperties"
+    },
+    {
+      "name": "llm.rate-limit",
+      "type": "com.example.llmgateway.config.RateLimitProperties",
+      "sourceType": "com.example.llmgateway.config.RateLimitProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "llm.default-provider",
+      "type": "java.lang.String",
+      "description": "默认使用的 provider 名称，未显式指定 model 时使用",
+      "sourceType": "com.example.llmgateway.config.ModelProperties",
+      "defaultValue": "openai"
+    },
+    {
+      "name": "llm.providers",
+      "type": "java.util.Map<java.lang.String,com.example.llmgateway.config.ModelProperties$Provider>",
+      "description": "provider 名 -> 配置",
+      "sourceType": "com.example.llmgateway.config.ModelProperties"
+    },
+    {
+      "name": "llm.rag.chunk-overlap",
+      "type": "java.lang.Integer",
+      "description": "相邻 chunk 之间的重叠字符数，避免语义在切分处被截断",
+      "sourceType": "com.example.llmgateway.config.RagProperties",
+      "defaultValue": 120
+    },
+    {
+      "name": "llm.rag.chunk-size",
+      "type": "java.lang.Integer",
+      "description": "文档切分时每个 chunk 的目标字符数",
+      "sourceType": "com.example.llmgateway.config.RagProperties",
+      "defaultValue": 800
+    },
+    {
+      "name": "llm.rag.collection-name",
+      "type": "java.lang.String",
+      "description": "集合\/索引名",
+      "sourceType": "com.example.llmgateway.config.RagProperties",
+      "defaultValue": "knowledge_base"
+    },
+    {
+      "name": "llm.rag.embedding-model",
+      "type": "java.lang.String",
+      "description": "使用的 embedding 模型",
+      "sourceType": "com.example.llmgateway.config.RagProperties",
+      "defaultValue": "text-embedding-3-small"
+    },
+    {
+      "name": "llm.rag.host",
+      "type": "java.lang.String",
+      "sourceType": "com.example.llmgateway.config.RagProperties",
+      "defaultValue": "localhost"
+    },
+    {
+      "name": "llm.rag.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.llmgateway.config.RagProperties",
+      "defaultValue": 19530
+    },
+    {
+      "name": "llm.rag.score-threshold",
+      "type": "java.lang.Double",
+      "description": "相似度阈值，低于该分数的片段不参与拼接上下文",
+      "sourceType": "com.example.llmgateway.config.RagProperties",
+      "defaultValue": 0.35
+    },
+    {
+      "name": "llm.rag.top-k",
+      "type": "java.lang.Integer",
+      "description": "检索返回的 top-K 片段数",
+      "sourceType": "com.example.llmgateway.config.RagProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "llm.rag.vector-store",
+      "type": "java.lang.String",
+      "description": "向量库类型：milvus \/ pinecone \/ chroma",
+      "sourceType": "com.example.llmgateway.config.RagProperties",
+      "defaultValue": "milvus"
+    },
+    {
+      "name": "llm.rate-limit.daily-token-quota",
+      "type": "java.lang.Long",
+      "description": "每个用户\/apiKey 每天允许消耗的 token 数，超出后触发降级（切换到更便宜的模型或拒绝）",
+      "sourceType": "com.example.llmgateway.config.RateLimitProperties",
+      "defaultValue": 200000
+    },
+    {
+      "name": "llm.rate-limit.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否开启限流",
+      "sourceType": "com.example.llmgateway.config.RateLimitProperties",
+      "defaultValue": true
+    },
+    {
+      "name": "llm.rate-limit.requests-per-minute",
+      "type": "java.lang.Integer",
+      "description": "每个用户\/apiKey 每分钟允许的请求数",
+      "sourceType": "com.example.llmgateway.config.RateLimitProperties",
+      "defaultValue": 30
+    }
+  ],
+  "hints": []
+}
